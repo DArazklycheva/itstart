@@ -104,7 +104,7 @@ const Modal = ({ seminar, onSave, onClose }) => {
                     <label className="label-modal">
                         Дата:
                         <input
-                            type="date"
+                            type="date-local"
                             name="date"
                             value={updatedSeminar.date}
                             onChange={handleChange}

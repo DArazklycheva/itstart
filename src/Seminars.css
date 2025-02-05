@@ -1,5 +1,6 @@
 .container {
     margin: 20px;
+    color: #202B21;
 }
 
 .seminars {
@@ -11,10 +12,11 @@
 }
 
 .seminar {
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid #456F49;
+    border-radius: 5px;
     box-sizing: border-box;
     padding: 0 20px 20px 20px;
+    background-color: #E7F1E8;
 }
 
 .actions {
@@ -23,9 +25,22 @@
     align-items: center;
 }
 
-.delete, .edit {
+.delete,
+.edit {
     padding: 10px;
     font-size: 14px;
+    cursor: pointer;
+    background-color: #456F49;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+}
+
+.delete:hover,
+.edit:hover {
+    background-color: #263e28;
 }
 
 .delete {
@@ -44,10 +59,11 @@
 
 .modal-content {
     min-width: 400px;
-    background-color: #fff;
+    background-color: #E7F1E8;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 30%;
+    left: 30%;
+    border-radius: 5px;
 }
 
 .modal-title {
@@ -66,18 +82,36 @@
     align-items: center;
 }
 
-.input-modal, .textarea-modal {
+.input-modal,
+.textarea-modal {
     margin-left: 10px;
-    padding: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid #2A592E;
+    border-radius: 3px;
 }
 
 .modal-actions {
     margin: 10px;
 }
 
-.save, .close {
+.save,
+.close {
     padding: 10px;
     font-size: 14px;
+    cursor: pointer;
+    background-color: #456F49;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+}
+
+.save:hover,
+.close:hover {
+    background-color: #263e28;
 }
 
 .save {
