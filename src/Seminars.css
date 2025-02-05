@@ -1,0 +1,85 @@
+.container {
+    margin: 20px;
+}
+
+.seminars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    list-style: none;
+    padding: 20px;
+}
+
+.seminar {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+}
+
+.actions {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.delete, .edit {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.delete {
+    margin-right: 30px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.modal-content {
+    min-width: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.modal-title {
+    margin-left: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 30px 20px;
+}
+
+.label-modal {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-modal, .textarea-modal {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.modal-actions {
+    margin: 10px;
+}
+
+.save, .close {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.save {
+    margin-right: 30px;
+}
